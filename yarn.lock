@@ -13128,7 +13128,7 @@ __metadata:
 "@uniswap/v3-core@https://github.com/Uniswap/v3-core.git#0.8":
   version: 1.0.1-solc-0.8
   resolution: "@uniswap/v3-core@https://github.com/Uniswap/v3-core.git#commit=6562c52e8f75f0c10f9deaf44861847585fc8129"
-  checksum: 8bc6a0ba277cfa9bbeb85649bde6c04babf9730a0e7911ceaa3f1e4c267332829ba36f420c125537a65619da3be78db133bcee185353a409131992183200472a
+  checksum: c314e830578661e256aa25431c13c139227e1511888083bca764de4cc5c1ade97c2e6f091b17b48a7c0cdc10ac107e51215c6a86c3ebcb4095327640bb8af68b
   languageName: node
   linkType: hard
 
@@ -13148,7 +13148,7 @@ __metadata:
     "@uniswap/v3-core": "npm:1.0.2-solc-0.8-simulate"
     base64-sol: "npm:1.1.0"
     hardhat-watcher: "npm:^2.1.1"
-  checksum: ed139a658b314bb9842ef40c76d6f27ead29be7a9c4ffe87a973d1f42784f79ba020e753ee8bd57b573d90b38fc4aece8549f95fa1242b109c2ec89dc8b85108
+  checksum: fc2a28272e8ed8d25dcfc066bea91c6619aa10ec5911c680d1a7d57b9c798e265a48dbd2d852162b04ae29b63b2fa3cdcfa04aa2f71504b9638e5171d2d8195f
   languageName: node
   linkType: hard
 
