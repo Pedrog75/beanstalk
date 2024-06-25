@@ -43,7 +43,7 @@ ignored_warnings_from = [
 gas_reports = ['*']
  # Cache to `$HOME/.foundry/cache/<chain id>/<block number>`.
 no_storage_caching = false
- 
+
 [profile.differential]
 match_test = "testDiff"
 no_match_test = "a^"
@@ -53,4 +53,4 @@ chains = 'all'
 endpoints = 'all'
 
 [rpc_endpoints]
-mainnet = "${FORKING_RPC}" 
+mainnet = "${FORKING_RPC}"
