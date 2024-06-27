@@ -77,9 +77,11 @@ contract ForkedUSDTTest is Test {
     uint256 userInitialBalance = token.balanceOf(user);
     console.log("User's Balance: ", userInitialBalance);
 
-    vm.prank(evilUser);
+    vm.startPrank(evilUser);
     vm.expectRevert();
     token.safeTransfer(user, transferAmount);
+    vm.stopPrank();
+
     uint256 userCurrentBalance = token.balanceOf(user);
     console.log("User's Balance: ", userCurrentBalance);
     assertEq(token.balanceOf(user), 0);
@@ -87,7 +89,6 @@ contract ForkedUSDTTest is Test {
     vm.startPrank(pedroAddress);
     token.safeTransfer(user, transferAmount);
     vm.stopPrank();
-
    }
 }
 
